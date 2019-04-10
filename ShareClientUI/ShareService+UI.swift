@@ -30,7 +30,8 @@ extension ShareService: ServiceAuthenticationUI {
                      value: KnownShareServers.US.rawValue),
                     (title: LocalizedString("Outside US", comment: "Outside US share server option title"),
                      value: KnownShareServers.NON_US.rawValue)
-
+                    (title: LocalizedString("Spike", comment: "Spike server option title"),
+                     value: KnownShareServers.SPIKE.rawValue)
                 ]
             )
         ]
